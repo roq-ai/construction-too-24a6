@@ -1,0 +1,2002 @@
+[
+  {
+    "tool": [
+      {
+        "id": "b0a710bd-a58f-4ba8-a91f-3d9187d37fed",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 27195,
+        "availability_status": false,
+        "created_at": "2023-09-14T05:31:37.784Z",
+        "updated_at": "2023-09-13T22:31:26.972Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a0f20520-7060-4065-a21b-7b5abd934fb8",
+        "name": "Screwdriver",
+        "description": "Ideal for fastening screws",
+        "price": 42254,
+        "availability_status": true,
+        "created_at": "2023-09-13T19:58:29.101Z",
+        "updated_at": "2023-09-13T17:16:52.910Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "66ce25c6-14ce-41a1-8a7e-dba05bf0dd16",
+        "name": "Wrench",
+        "description": "Used for tightening or loosening nuts and bolts",
+        "price": 91276,
+        "availability_status": false,
+        "created_at": "2023-09-13T22:36:28.456Z",
+        "updated_at": "2023-09-14T08:30:43.577Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f898da99-9f61-4a45-9104-798f5a3def8d",
+        "name": "Drill",
+        "description": "Perfect for drilling holes",
+        "price": 32245,
+        "availability_status": false,
+        "created_at": "2023-09-13T15:11:44.238Z",
+        "updated_at": "2023-09-14T04:38:21.816Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "659fd625-39ed-4b6b-beaa-710ae19e0f1e",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "price": 48317,
+        "availability_status": true,
+        "created_at": "2023-09-13T22:47:05.349Z",
+        "updated_at": "2023-09-13T17:46:38.025Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "c934659a-f7ee-428b-9029-d93dee3ffde8",
+        "start_date": "2023-09-13T16:37:48.195Z",
+        "end_date": "2023-09-14T01:31:46.083Z",
+        "status": "Pending",
+        "created_at": "2023-09-14T01:51:52.369Z",
+        "updated_at": "2023-09-13T21:24:02.999Z",
+        "tool_id": "66ce25c6-14ce-41a1-8a7e-dba05bf0dd16",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df90bc2b-c8d5-4ad0-9416-5d4b7f3811ce",
+        "start_date": "2023-09-13T14:19:15.476Z",
+        "end_date": "2023-09-13T17:31:46.861Z",
+        "status": "Approved",
+        "created_at": "2023-09-13T17:07:31.990Z",
+        "updated_at": "2023-09-13T20:19:08.984Z",
+        "tool_id": "a0f20520-7060-4065-a21b-7b5abd934fb8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d4d0781-0289-4edd-854f-f0eb8a71135b",
+        "start_date": "2023-09-13T20:40:34.318Z",
+        "end_date": "2023-09-13T19:30:44.436Z",
+        "status": "Rejected",
+        "created_at": "2023-09-13T20:38:04.127Z",
+        "updated_at": "2023-09-13T13:35:04.486Z",
+        "tool_id": "66ce25c6-14ce-41a1-8a7e-dba05bf0dd16",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "413ef82d-51c0-41b3-9e56-627a0cd2b6d4",
+        "start_date": "2023-09-14T01:46:07.907Z",
+        "end_date": "2023-09-13T17:12:50.100Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-13T17:26:41.326Z",
+        "updated_at": "2023-09-13T10:45:39.574Z",
+        "tool_id": "f898da99-9f61-4a45-9104-798f5a3def8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55426811-5f39-4273-aca5-eb5def432454",
+        "start_date": "2023-09-13T16:24:46.214Z",
+        "end_date": "2023-09-13T12:35:28.119Z",
+        "status": "Completed",
+        "created_at": "2023-09-14T04:10:04.725Z",
+        "updated_at": "2023-09-13T20:29:10.679Z",
+        "tool_id": "a0f20520-7060-4065-a21b-7b5abd934fb8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "90fc68da-396b-4045-a69e-fae9db87cbba",
+        "start_date": "2023-09-14T01:45:56.589Z",
+        "end_date": "2023-09-13T09:46:56.031Z",
+        "created_at": "2023-09-13T10:46:14.102Z",
+        "updated_at": "2023-09-13T13:39:03.207Z",
+        "tool_id": "b0a710bd-a58f-4ba8-a91f-3d9187d37fed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22c298d8-1cb2-47c3-b163-048f4392a4ab",
+        "start_date": "2023-09-13T23:03:10.564Z",
+        "end_date": "2023-09-13T23:43:35.561Z",
+        "created_at": "2023-09-14T04:30:01.264Z",
+        "updated_at": "2023-09-13T12:33:33.619Z",
+        "tool_id": "b0a710bd-a58f-4ba8-a91f-3d9187d37fed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53acb8da-1610-4b5e-bd53-84b1c4a8f928",
+        "start_date": "2023-09-13T21:36:46.712Z",
+        "end_date": "2023-09-13T18:23:47.976Z",
+        "created_at": "2023-09-13T12:09:15.140Z",
+        "updated_at": "2023-09-13T10:05:19.935Z",
+        "tool_id": "66ce25c6-14ce-41a1-8a7e-dba05bf0dd16",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34e473d0-09ef-4f98-9a6f-6a24ab483db0",
+        "start_date": "2023-09-13T16:21:33.671Z",
+        "end_date": "2023-09-13T19:38:54.964Z",
+        "created_at": "2023-09-13T10:08:14.133Z",
+        "updated_at": "2023-09-14T03:04:39.658Z",
+        "tool_id": "b0a710bd-a58f-4ba8-a91f-3d9187d37fed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82a4e4ab-a84e-4228-98da-93c17731ccb7",
+        "start_date": "2023-09-13T21:04:26.644Z",
+        "end_date": "2023-09-13T17:10:30.913Z",
+        "created_at": "2023-09-13T20:35:49.295Z",
+        "updated_at": "2023-09-14T01:49:21.460Z",
+        "tool_id": "66ce25c6-14ce-41a1-8a7e-dba05bf0dd16",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25fc8004-7b19-4ef6-bb78-9ab146f9c75b",
+        "email": "Nicklaus_Bins43@hotmail.com",
+        "firstName": "Elwyn",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15890646",
+        "tenantId": null
+      },
+      {
+        "reference": "b1c8d827-ef2d-4455-83e9-1d737dbb6ae6",
+        "email": "Joaquin.Hoppe30@yahoo.com",
+        "firstName": "Vernie",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1248.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "abf9fc67-3a01-449b-9634-373ca6855427",
+        "email": "Demetrius_Lindgren@gmail.com",
+        "firstName": "Marcelino",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "936c23f3-e55e-4890-934e-76ed19832414",
+        "email": "Jamal0@gmail.com",
+        "firstName": "Clair",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/423.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3fb29640-ef79-46fa-9152-2326d7d6c061",
+        "email": "Piper.Dare@gmail.com",
+        "firstName": "Schuyler",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/353.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "3c4314d1-48e1-491d-ab3a-57d185616212",
+        "name": "Hammer",
+        "description": "A versatile tool for pounding nails",
+        "price": 85396,
+        "availability_status": true,
+        "created_at": "2023-09-14T00:42:30.389Z",
+        "updated_at": "2023-09-13T15:01:40.084Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "855b541a-e877-4b59-a586-f510d07b8e6a",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening screws",
+        "price": 89688,
+        "availability_status": false,
+        "created_at": "2023-09-13T20:40:13.711Z",
+        "updated_at": "2023-09-13T09:27:48.961Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f24a7b0-7221-41d2-8d9a-55bfb52beeba",
+        "name": "Wrench",
+        "description": "Ideal for plumbing tasks",
+        "price": 83960,
+        "availability_status": true,
+        "created_at": "2023-09-13T18:00:21.328Z",
+        "updated_at": "2023-09-13T11:24:49.582Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9d5b4453-27e5-431c-a462-077b002a848b",
+        "name": "Drill",
+        "description": "Great for drilling holes",
+        "price": 87888,
+        "availability_status": false,
+        "created_at": "2023-09-13T09:07:32.968Z",
+        "updated_at": "2023-09-14T08:12:59.583Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3f41b2c4-fa91-4b84-b849-0550f8ea9fa7",
+        "name": "Saw",
+        "description": "Used for cutting materials",
+        "price": 25867,
+        "availability_status": false,
+        "created_at": "2023-09-14T05:21:34.494Z",
+        "updated_at": "2023-09-13T15:08:26.096Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "e8e7ace6-f006-4f6e-89e7-f75d12921756",
+        "start_date": "2023-09-14T02:20:16.728Z",
+        "end_date": "2023-09-14T07:22:02.973Z",
+        "status": "Pending",
+        "created_at": "2023-09-14T02:59:20.545Z",
+        "updated_at": "2023-09-13T15:32:22.879Z",
+        "tool_id": "855b541a-e877-4b59-a586-f510d07b8e6a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58bd8bad-3726-46d6-9809-55ede6eed970",
+        "start_date": "2023-09-14T01:19:02.243Z",
+        "end_date": "2023-09-14T06:30:36.957Z",
+        "status": "Approved",
+        "created_at": "2023-09-13T12:30:40.517Z",
+        "updated_at": "2023-09-13T16:15:38.424Z",
+        "tool_id": "3c4314d1-48e1-491d-ab3a-57d185616212",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29b2ddf2-9d4e-4243-a770-420014b17f9f",
+        "start_date": "2023-09-13T18:53:30.985Z",
+        "end_date": "2023-09-13T21:55:36.108Z",
+        "status": "Rejected",
+        "created_at": "2023-09-13T19:43:24.357Z",
+        "updated_at": "2023-09-13T23:45:11.527Z",
+        "tool_id": "3c4314d1-48e1-491d-ab3a-57d185616212",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0df86841-24d3-4b51-9e24-3080eba67098",
+        "start_date": "2023-09-14T02:15:30.085Z",
+        "end_date": "2023-09-13T14:09:41.962Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T05:01:58.700Z",
+        "updated_at": "2023-09-13T23:00:31.962Z",
+        "tool_id": "3f41b2c4-fa91-4b84-b849-0550f8ea9fa7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8570d22b-26f2-4b27-82ee-ee889618dc30",
+        "start_date": "2023-09-14T01:18:07.327Z",
+        "end_date": "2023-09-13T14:51:59.322Z",
+        "status": "Completed",
+        "created_at": "2023-09-13T14:09:16.701Z",
+        "updated_at": "2023-09-13T18:15:49.595Z",
+        "tool_id": "9f24a7b0-7221-41d2-8d9a-55bfb52beeba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "b943fa0a-6870-49b3-a7e1-9eacc5dbc068",
+        "start_date": "2023-09-13T21:16:53.557Z",
+        "end_date": "2023-09-13T23:13:06.731Z",
+        "created_at": "2023-09-13T12:42:08.889Z",
+        "updated_at": "2023-09-13T12:38:40.396Z",
+        "tool_id": "9d5b4453-27e5-431c-a462-077b002a848b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63e873f3-929d-4a34-a1ee-77ddfbd814b5",
+        "start_date": "2023-09-13T19:52:00.524Z",
+        "end_date": "2023-09-13T10:05:33.335Z",
+        "created_at": "2023-09-13T17:33:04.834Z",
+        "updated_at": "2023-09-14T05:18:57.145Z",
+        "tool_id": "855b541a-e877-4b59-a586-f510d07b8e6a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6b1aab6-2965-444f-a8fa-ce7aa1522495",
+        "start_date": "2023-09-13T20:14:32.582Z",
+        "end_date": "2023-09-14T08:02:29.245Z",
+        "created_at": "2023-09-13T10:39:27.517Z",
+        "updated_at": "2023-09-13T23:41:31.812Z",
+        "tool_id": "9d5b4453-27e5-431c-a462-077b002a848b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78260662-1d95-4ebc-9740-fb759766d85a",
+        "start_date": "2023-09-13T22:57:00.205Z",
+        "end_date": "2023-09-13T20:52:20.235Z",
+        "created_at": "2023-09-13T09:26:50.918Z",
+        "updated_at": "2023-09-14T04:12:42.200Z",
+        "tool_id": "9d5b4453-27e5-431c-a462-077b002a848b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45244640-d029-462e-9282-e5ae762111f3",
+        "start_date": "2023-09-13T19:43:57.306Z",
+        "end_date": "2023-09-13T16:25:07.589Z",
+        "created_at": "2023-09-14T08:51:19.508Z",
+        "updated_at": "2023-09-13T13:04:51.797Z",
+        "tool_id": "855b541a-e877-4b59-a586-f510d07b8e6a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "89c3cbd2-19a5-4df1-9276-03b1b8049fc4",
+        "email": "Kadin64@yahoo.com",
+        "firstName": "Natalie",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b3d3c0e-64e1-4d5f-875b-141b5df29ef2",
+        "email": "Dale.Blanda@gmail.com",
+        "firstName": "Rozella",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "702b6c71-1521-4fab-afcf-f35e588c8a65",
+        "email": "Tiana_Armstrong@hotmail.com",
+        "firstName": "Aidan",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23963752",
+        "tenantId": null
+      },
+      {
+        "reference": "ac2592aa-f5d6-4dea-8198-588eb3aa9aa8",
+        "email": "Raina.Auer-Connelly@yahoo.com",
+        "firstName": "Elwin",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26164659",
+        "tenantId": null
+      },
+      {
+        "reference": "e38a46ea-137f-4237-b0e1-0ff5a729e843",
+        "email": "Novella10@gmail.com",
+        "firstName": "Elissa",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88228379",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "8d90f3ae-8664-4cee-816b-74fd6b13c0ff",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 72656,
+        "availability_status": false,
+        "created_at": "2023-09-14T06:30:23.308Z",
+        "updated_at": "2023-09-13T17:46:51.938Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "756d2705-3295-4b87-a76e-9ff2c8b6c391",
+        "name": "Screwdriver",
+        "description": "Ideal for fastening screws",
+        "price": 28628,
+        "availability_status": true,
+        "created_at": "2023-09-13T14:56:05.859Z",
+        "updated_at": "2023-09-14T00:34:04.027Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2f854609-88a8-4d2e-90a8-2c4d8a553f64",
+        "name": "Wrench",
+        "description": "Perfect for tightening nuts and bolts",
+        "price": 49299,
+        "availability_status": true,
+        "created_at": "2023-09-13T11:23:00.586Z",
+        "updated_at": "2023-09-13T13:10:22.394Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "930a1b8d-8d17-424b-b0db-78639f9757ad",
+        "name": "Drill",
+        "description": "Efficient for drilling holes",
+        "price": 95898,
+        "availability_status": true,
+        "created_at": "2023-09-14T05:04:01.175Z",
+        "updated_at": "2023-09-13T11:32:28.733Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "323ca127-a799-4132-8439-9b5d2c72fe85",
+        "name": "Pliers",
+        "description": "Great for gripping and holding objects",
+        "price": 96433,
+        "availability_status": true,
+        "created_at": "2023-09-14T03:32:35.313Z",
+        "updated_at": "2023-09-13T18:51:15.031Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "218160b6-ff4c-4ca2-9c76-a490e713d87f",
+        "start_date": "2023-09-13T12:43:43.870Z",
+        "end_date": "2023-09-13T16:20:38.744Z",
+        "status": "Pending",
+        "created_at": "2023-09-14T07:09:37.048Z",
+        "updated_at": "2023-09-13T14:38:25.717Z",
+        "tool_id": "2f854609-88a8-4d2e-90a8-2c4d8a553f64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34c114d3-6ed7-411a-b01b-491051e50a79",
+        "start_date": "2023-09-14T06:10:31.201Z",
+        "end_date": "2023-09-14T07:06:04.143Z",
+        "status": "Approved",
+        "created_at": "2023-09-13T14:45:10.257Z",
+        "updated_at": "2023-09-14T07:27:10.761Z",
+        "tool_id": "756d2705-3295-4b87-a76e-9ff2c8b6c391",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64391aa-5b26-475a-ac35-ff665e315326",
+        "start_date": "2023-09-13T13:22:31.912Z",
+        "end_date": "2023-09-13T20:10:07.386Z",
+        "status": "Rejected",
+        "created_at": "2023-09-13T21:54:53.344Z",
+        "updated_at": "2023-09-13T11:42:33.546Z",
+        "tool_id": "8d90f3ae-8664-4cee-816b-74fd6b13c0ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d265267a-4245-425f-9f4f-221f178646e9",
+        "start_date": "2023-09-13T12:48:48.686Z",
+        "end_date": "2023-09-13T17:00:33.597Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-13T12:56:31.703Z",
+        "updated_at": "2023-09-13T17:11:20.676Z",
+        "tool_id": "930a1b8d-8d17-424b-b0db-78639f9757ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f641ecfa-b76b-4680-bfc4-64074c73c7e2",
+        "start_date": "2023-09-14T08:48:06.838Z",
+        "end_date": "2023-09-14T06:43:49.997Z",
+        "status": "Completed",
+        "created_at": "2023-09-13T09:26:14.903Z",
+        "updated_at": "2023-09-13T17:58:22.296Z",
+        "tool_id": "2f854609-88a8-4d2e-90a8-2c4d8a553f64",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "85136573-79b1-42ff-b39d-c0e5bde4afdd",
+        "start_date": "2023-09-14T08:32:13.414Z",
+        "end_date": "2023-09-13T16:39:57.260Z",
+        "created_at": "2023-09-13T09:03:20.037Z",
+        "updated_at": "2023-09-13T09:20:43.856Z",
+        "tool_id": "930a1b8d-8d17-424b-b0db-78639f9757ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3c8f6de-b1d9-434c-a092-df681d3832b8",
+        "start_date": "2023-09-14T07:16:14.933Z",
+        "end_date": "2023-09-13T15:50:11.737Z",
+        "created_at": "2023-09-13T09:22:03.891Z",
+        "updated_at": "2023-09-14T02:52:14.355Z",
+        "tool_id": "323ca127-a799-4132-8439-9b5d2c72fe85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ca216fc-3071-4b5e-bcf0-24410b1237c4",
+        "start_date": "2023-09-14T04:44:56.300Z",
+        "end_date": "2023-09-13T22:15:43.042Z",
+        "created_at": "2023-09-14T04:12:38.138Z",
+        "updated_at": "2023-09-13T17:32:08.658Z",
+        "tool_id": "8d90f3ae-8664-4cee-816b-74fd6b13c0ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e53a289e-9071-4b1d-94d6-4dbf2063a194",
+        "start_date": "2023-09-14T06:52:31.403Z",
+        "end_date": "2023-09-13T15:47:30.830Z",
+        "created_at": "2023-09-13T12:51:32.867Z",
+        "updated_at": "2023-09-13T20:08:03.221Z",
+        "tool_id": "930a1b8d-8d17-424b-b0db-78639f9757ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78853dc9-8743-44c1-98ee-a387eee8d702",
+        "start_date": "2023-09-14T04:25:32.910Z",
+        "end_date": "2023-09-13T12:28:18.079Z",
+        "created_at": "2023-09-14T08:37:24.572Z",
+        "updated_at": "2023-09-13T15:26:44.904Z",
+        "tool_id": "8d90f3ae-8664-4cee-816b-74fd6b13c0ff",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9e57eec8-b003-485d-9944-2abf058b1ff5",
+        "email": "Mireya_Waelchi@hotmail.com",
+        "firstName": "Delphia",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65827490",
+        "tenantId": null
+      },
+      {
+        "reference": "3f83b951-08a2-4f76-b351-62e106895da5",
+        "email": "Aaron_Parisian9@yahoo.com",
+        "firstName": "Derrick",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/324.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "82870e47-18f4-470d-934e-48472b70cab8",
+        "email": "Kianna28@hotmail.com",
+        "firstName": "Will",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30501873",
+        "tenantId": null
+      },
+      {
+        "reference": "7e913a92-4a2c-4519-af4c-f844c6580995",
+        "email": "Ova.Champlin@hotmail.com",
+        "firstName": "Nikita",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c7cdb66-0a7c-4f67-be8e-beba22f9070f",
+        "email": "Chelsie_Schroeder5@gmail.com",
+        "firstName": "Armand",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98292554",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "69a94b1b-0496-4fc2-843b-1bdd299fe1ea",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 23831,
+        "availability_status": true,
+        "created_at": "2023-09-13T17:21:34.702Z",
+        "updated_at": "2023-09-13T14:42:55.198Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1c55e4e9-c28c-4bfe-98a6-432493000a9e",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "price": 35717,
+        "availability_status": false,
+        "created_at": "2023-09-13T21:17:42.285Z",
+        "updated_at": "2023-09-14T00:43:20.738Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "33cca79f-a1ca-409d-9fde-da4efaed173a",
+        "name": "Wrench",
+        "description": "Perfect for plumbing repairs",
+        "price": 36869,
+        "availability_status": false,
+        "created_at": "2023-09-14T06:24:16.307Z",
+        "updated_at": "2023-09-13T14:30:01.416Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "366a405a-b948-411a-94dd-9ba88de2e680",
+        "name": "Drill",
+        "description": "Efficient for drilling holes",
+        "price": 38778,
+        "availability_status": false,
+        "created_at": "2023-09-13T17:47:28.136Z",
+        "updated_at": "2023-09-14T05:06:10.228Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3093ea83-daf7-47d4-9192-bc48563cd27b",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "price": 30221,
+        "availability_status": true,
+        "created_at": "2023-09-13T23:15:46.579Z",
+        "updated_at": "2023-09-13T20:23:35.430Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "d2e30a95-388c-4c80-acc6-a190b2918421",
+        "start_date": "2023-09-14T00:28:32.101Z",
+        "end_date": "2023-09-14T02:34:28.565Z",
+        "status": "Pending",
+        "created_at": "2023-09-13T17:28:50.491Z",
+        "updated_at": "2023-09-13T09:22:38.333Z",
+        "tool_id": "69a94b1b-0496-4fc2-843b-1bdd299fe1ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f58be7ab-630c-4dfc-9b5d-d5077162e497",
+        "start_date": "2023-09-13T09:51:23.551Z",
+        "end_date": "2023-09-14T07:23:34.694Z",
+        "status": "Approved",
+        "created_at": "2023-09-13T14:26:35.249Z",
+        "updated_at": "2023-09-13T10:48:09.244Z",
+        "tool_id": "33cca79f-a1ca-409d-9fde-da4efaed173a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89d2695d-f9ec-4e74-beb5-636136cae1c0",
+        "start_date": "2023-09-13T18:40:05.895Z",
+        "end_date": "2023-09-13T14:20:50.093Z",
+        "status": "Rejected",
+        "created_at": "2023-09-13T16:15:34.086Z",
+        "updated_at": "2023-09-14T02:49:58.248Z",
+        "tool_id": "33cca79f-a1ca-409d-9fde-da4efaed173a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8055c1ec-d853-481e-826e-5915cde3b102",
+        "start_date": "2023-09-13T14:56:20.878Z",
+        "end_date": "2023-09-14T03:39:28.270Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-13T17:07:23.200Z",
+        "updated_at": "2023-09-14T04:56:35.230Z",
+        "tool_id": "33cca79f-a1ca-409d-9fde-da4efaed173a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2009a38-17c2-46b0-895b-a3d05a50e824",
+        "start_date": "2023-09-13T13:12:42.467Z",
+        "end_date": "2023-09-13T20:32:20.107Z",
+        "status": "Completed",
+        "created_at": "2023-09-13T10:00:42.524Z",
+        "updated_at": "2023-09-14T05:09:46.375Z",
+        "tool_id": "69a94b1b-0496-4fc2-843b-1bdd299fe1ea",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "144f2430-07f2-42ae-b5d7-07954e938426",
+        "start_date": "2023-09-13T20:57:37.465Z",
+        "end_date": "2023-09-13T10:57:10.338Z",
+        "created_at": "2023-09-14T03:02:54.212Z",
+        "updated_at": "2023-09-13T15:07:32.275Z",
+        "tool_id": "33cca79f-a1ca-409d-9fde-da4efaed173a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c12c0dba-a765-4a29-83ef-135eccacfd0a",
+        "start_date": "2023-09-13T17:11:56.741Z",
+        "end_date": "2023-09-13T17:22:29.465Z",
+        "created_at": "2023-09-13T18:57:28.648Z",
+        "updated_at": "2023-09-14T01:58:38.839Z",
+        "tool_id": "1c55e4e9-c28c-4bfe-98a6-432493000a9e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bedeb43c-d3bb-4d7b-9d5e-072aca6fe8fa",
+        "start_date": "2023-09-13T23:23:30.590Z",
+        "end_date": "2023-09-13T17:21:33.737Z",
+        "created_at": "2023-09-13T18:01:22.053Z",
+        "updated_at": "2023-09-14T07:36:58.555Z",
+        "tool_id": "3093ea83-daf7-47d4-9192-bc48563cd27b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64012b51-a3e3-489c-9f5d-5c96d301248a",
+        "start_date": "2023-09-13T18:34:36.692Z",
+        "end_date": "2023-09-14T02:52:12.120Z",
+        "created_at": "2023-09-14T08:25:54.018Z",
+        "updated_at": "2023-09-13T09:56:20.921Z",
+        "tool_id": "3093ea83-daf7-47d4-9192-bc48563cd27b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c5b4e30-f582-4edd-b253-ded45de05683",
+        "start_date": "2023-09-14T04:06:52.110Z",
+        "end_date": "2023-09-13T20:17:52.157Z",
+        "created_at": "2023-09-14T05:34:43.150Z",
+        "updated_at": "2023-09-13T09:53:05.085Z",
+        "tool_id": "1c55e4e9-c28c-4bfe-98a6-432493000a9e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "402101c6-53af-4389-939e-9f20697f7870",
+        "email": "Delfina95@gmail.com",
+        "firstName": "Christopher",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/15.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "190aa4f4-9b6b-4c7c-9106-4223cc7ba95f",
+        "email": "Josefina81@hotmail.com",
+        "firstName": "Guiseppe",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58217974",
+        "tenantId": null
+      },
+      {
+        "reference": "3df5cbbf-f92a-4031-a2d0-02a1f79b6965",
+        "email": "Garrick_Carter55@hotmail.com",
+        "firstName": "Laura",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba7c0457-9dd0-4d8b-9805-47662139231b",
+        "email": "Kianna_Schuster@yahoo.com",
+        "firstName": "Nellie",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48070986",
+        "tenantId": null
+      },
+      {
+        "reference": "8479eff1-0db8-4a3c-ba5c-30d44c6089e7",
+        "email": "Anita12@hotmail.com",
+        "firstName": "Brent",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99612345",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "54ae46b7-bae2-4f93-a86e-cfc408e22d12",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 25497,
+        "availability_status": false,
+        "created_at": "2023-09-13T18:36:18.307Z",
+        "updated_at": "2023-09-13T21:01:13.297Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "87a0da4e-06d8-41d5-b87f-a85454e5b84c",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening screws",
+        "price": 70413,
+        "availability_status": false,
+        "created_at": "2023-09-13T10:01:44.412Z",
+        "updated_at": "2023-09-13T18:46:39.676Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9c08a092-3525-46a0-8d93-61158386d4b8",
+        "name": "Drill",
+        "description": "Ideal for drilling holes",
+        "price": 68742,
+        "availability_status": true,
+        "created_at": "2023-09-13T19:09:15.526Z",
+        "updated_at": "2023-09-13T11:19:48.920Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f3586064-8528-451b-b27d-efc9e6dc9001",
+        "name": "Wrench",
+        "description": "Great for fixing pipes",
+        "price": 31958,
+        "availability_status": true,
+        "created_at": "2023-09-13T22:30:51.826Z",
+        "updated_at": "2023-09-13T18:51:01.131Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7a1e0ae1-610e-4b9f-81ee-1ffaaace1c96",
+        "name": "Pliers",
+        "description": "Useful for gripping and bending",
+        "price": 2653,
+        "availability_status": false,
+        "created_at": "2023-09-14T04:13:27.570Z",
+        "updated_at": "2023-09-13T21:15:57.461Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "74724f91-bd99-4c72-8a50-072977694605",
+        "start_date": "2023-09-13T20:04:54.550Z",
+        "end_date": "2023-09-13T18:06:53.030Z",
+        "status": "Pending",
+        "created_at": "2023-09-14T02:01:11.237Z",
+        "updated_at": "2023-09-13T09:33:22.567Z",
+        "tool_id": "54ae46b7-bae2-4f93-a86e-cfc408e22d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ab6b07d-013a-42c3-ae4a-a16e7682102f",
+        "start_date": "2023-09-14T01:09:30.446Z",
+        "end_date": "2023-09-13T10:52:55.661Z",
+        "status": "Approved",
+        "created_at": "2023-09-14T03:09:57.951Z",
+        "updated_at": "2023-09-13T15:43:41.423Z",
+        "tool_id": "87a0da4e-06d8-41d5-b87f-a85454e5b84c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7652c261-2c0b-46d4-b6d0-9a2e9e7ad8d3",
+        "start_date": "2023-09-14T05:43:36.705Z",
+        "end_date": "2023-09-14T08:02:34.665Z",
+        "status": "Rejected",
+        "created_at": "2023-09-13T09:37:29.882Z",
+        "updated_at": "2023-09-13T09:18:35.358Z",
+        "tool_id": "54ae46b7-bae2-4f93-a86e-cfc408e22d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e790f49-050b-4886-8ea8-f80a0d252018",
+        "start_date": "2023-09-14T08:20:59.808Z",
+        "end_date": "2023-09-13T22:23:13.090Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T02:25:54.671Z",
+        "updated_at": "2023-09-13T14:23:23.151Z",
+        "tool_id": "54ae46b7-bae2-4f93-a86e-cfc408e22d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c48aaf12-2780-4ba6-bc79-eb9be2e43029",
+        "start_date": "2023-09-13T20:28:53.415Z",
+        "end_date": "2023-09-13T11:05:37.160Z",
+        "status": "Completed",
+        "created_at": "2023-09-14T03:57:45.990Z",
+        "updated_at": "2023-09-13T18:32:15.969Z",
+        "tool_id": "87a0da4e-06d8-41d5-b87f-a85454e5b84c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "da9ae87c-df59-4b2c-a780-34e8c668c9cb",
+        "start_date": "2023-09-13T20:00:23.121Z",
+        "end_date": "2023-09-13T23:03:58.601Z",
+        "created_at": "2023-09-13T20:41:42.102Z",
+        "updated_at": "2023-09-13T18:08:05.129Z",
+        "tool_id": "7a1e0ae1-610e-4b9f-81ee-1ffaaace1c96",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34b511b1-27b8-4759-b090-82d3e9b75817",
+        "start_date": "2023-09-14T07:18:58.013Z",
+        "end_date": "2023-09-14T06:07:13.728Z",
+        "created_at": "2023-09-13T16:08:29.220Z",
+        "updated_at": "2023-09-13T20:10:05.560Z",
+        "tool_id": "9c08a092-3525-46a0-8d93-61158386d4b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ffd1416-df39-4660-805e-4f1e826a0641",
+        "start_date": "2023-09-13T16:54:16.462Z",
+        "end_date": "2023-09-13T12:08:11.709Z",
+        "created_at": "2023-09-13T16:50:34.925Z",
+        "updated_at": "2023-09-13T11:46:58.481Z",
+        "tool_id": "54ae46b7-bae2-4f93-a86e-cfc408e22d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82486eb5-402a-4350-b230-db76c508c532",
+        "start_date": "2023-09-14T02:26:21.471Z",
+        "end_date": "2023-09-14T04:51:54.555Z",
+        "created_at": "2023-09-13T09:41:26.577Z",
+        "updated_at": "2023-09-14T07:18:22.549Z",
+        "tool_id": "87a0da4e-06d8-41d5-b87f-a85454e5b84c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba0c8385-39f4-4d75-899a-0802067f91f7",
+        "start_date": "2023-09-13T22:40:41.182Z",
+        "end_date": "2023-09-13T18:07:33.201Z",
+        "created_at": "2023-09-14T00:41:20.000Z",
+        "updated_at": "2023-09-13T12:14:32.080Z",
+        "tool_id": "9c08a092-3525-46a0-8d93-61158386d4b8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3d5717c4-275e-4214-a656-dda50601e519",
+        "email": "Ashlee_Hand@yahoo.com",
+        "firstName": "Hermann",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/208.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0550fd1b-385f-4a7e-8ddf-6d6a30d89826",
+        "email": "Grady.West@yahoo.com",
+        "firstName": "Triston",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68244482",
+        "tenantId": null
+      },
+      {
+        "reference": "34440cb4-55f6-4165-a9dd-b9a50949a8ee",
+        "email": "Eva.Haag91@yahoo.com",
+        "firstName": "Carol",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87956727",
+        "tenantId": null
+      },
+      {
+        "reference": "b79e0ef7-e2cf-4b33-b51c-fea07a0839a6",
+        "email": "Junius.Pollich27@gmail.com",
+        "firstName": "Vada",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83731598",
+        "tenantId": null
+      },
+      {
+        "reference": "18fbf7c4-d716-4496-84db-292f9376dab1",
+        "email": "Eloisa79@gmail.com",
+        "firstName": "Armani",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/638.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "0675c646-c208-42dc-840f-1166ad7eec53",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 8178,
+        "availability_status": true,
+        "created_at": "2023-09-13T14:55:50.624Z",
+        "updated_at": "2023-09-14T08:34:06.172Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3f968eac-6419-436e-a3fd-eb374c30094f",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "price": 8713,
+        "availability_status": false,
+        "created_at": "2023-09-14T06:51:16.502Z",
+        "updated_at": "2023-09-14T07:48:15.828Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c6e02bd4-b463-43ba-823a-45aaa934a5e7",
+        "name": "Wrench",
+        "description": "Used for turning nuts and bolts",
+        "price": 17226,
+        "availability_status": true,
+        "created_at": "2023-09-13T09:20:36.855Z",
+        "updated_at": "2023-09-13T15:08:01.719Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d7fb533f-0b9a-4758-9bcc-4d8628779f88",
+        "name": "Drill",
+        "description": "For drilling holes in different materials",
+        "price": 14748,
+        "availability_status": true,
+        "created_at": "2023-09-13T19:35:26.424Z",
+        "updated_at": "2023-09-13T14:38:16.983Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bcbb0a37-5c7d-4ecf-b171-7b21ce430211",
+        "name": "Pliers",
+        "description": "Used for gripping and bending wires",
+        "price": 94185,
+        "availability_status": true,
+        "created_at": "2023-09-14T04:35:41.015Z",
+        "updated_at": "2023-09-13T18:36:24.372Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "0f3bb3eb-a4ab-4e87-b757-4ab1f3e5d180",
+        "start_date": "2023-09-13T19:14:20.789Z",
+        "end_date": "2023-09-14T05:42:30.294Z",
+        "status": "Pending",
+        "created_at": "2023-09-13T13:24:04.398Z",
+        "updated_at": "2023-09-13T19:56:14.540Z",
+        "tool_id": "d7fb533f-0b9a-4758-9bcc-4d8628779f88",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "485d83ca-272d-4c45-8787-8207622d03ab",
+        "start_date": "2023-09-13T09:34:16.246Z",
+        "end_date": "2023-09-14T05:33:55.881Z",
+        "status": "Approved",
+        "created_at": "2023-09-13T13:36:46.308Z",
+        "updated_at": "2023-09-13T16:42:01.470Z",
+        "tool_id": "c6e02bd4-b463-43ba-823a-45aaa934a5e7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1042198c-5ac2-4da8-8929-32b124d9be44",
+        "start_date": "2023-09-14T08:49:50.069Z",
+        "end_date": "2023-09-13T15:51:36.869Z",
+        "status": "Rejected",
+        "created_at": "2023-09-14T02:18:19.672Z",
+        "updated_at": "2023-09-13T21:33:17.853Z",
+        "tool_id": "0675c646-c208-42dc-840f-1166ad7eec53",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80102ecd-f4bf-4a0f-89d3-9677a79301b0",
+        "start_date": "2023-09-14T08:44:26.440Z",
+        "end_date": "2023-09-13T14:05:10.986Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T05:55:05.884Z",
+        "updated_at": "2023-09-13T14:20:20.288Z",
+        "tool_id": "0675c646-c208-42dc-840f-1166ad7eec53",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8584c48e-d275-4c82-93f5-ba42f9841a05",
+        "start_date": "2023-09-13T16:04:00.635Z",
+        "end_date": "2023-09-14T06:54:18.386Z",
+        "status": "Completed",
+        "created_at": "2023-09-13T21:47:19.307Z",
+        "updated_at": "2023-09-14T08:57:30.660Z",
+        "tool_id": "c6e02bd4-b463-43ba-823a-45aaa934a5e7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "3635c732-dd7e-487f-a9bf-5265532c0bcb",
+        "start_date": "2023-09-13T22:55:30.165Z",
+        "end_date": "2023-09-13T18:25:47.596Z",
+        "created_at": "2023-09-14T03:45:07.225Z",
+        "updated_at": "2023-09-14T06:47:55.900Z",
+        "tool_id": "3f968eac-6419-436e-a3fd-eb374c30094f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20c3c635-8d6d-4599-b1c1-a3d621b29048",
+        "start_date": "2023-09-13T11:58:09.716Z",
+        "end_date": "2023-09-14T05:46:23.755Z",
+        "created_at": "2023-09-13T20:41:22.041Z",
+        "updated_at": "2023-09-14T06:18:48.403Z",
+        "tool_id": "bcbb0a37-5c7d-4ecf-b171-7b21ce430211",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b4cfc9f-e505-4671-ab85-5eb0778ebdda",
+        "start_date": "2023-09-13T22:55:43.233Z",
+        "end_date": "2023-09-13T15:33:42.484Z",
+        "created_at": "2023-09-13T17:16:54.661Z",
+        "updated_at": "2023-09-13T17:44:17.550Z",
+        "tool_id": "bcbb0a37-5c7d-4ecf-b171-7b21ce430211",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ec3fcaa-7734-47ba-ab2c-31eb0a768c25",
+        "start_date": "2023-09-13T22:39:11.219Z",
+        "end_date": "2023-09-13T21:00:55.021Z",
+        "created_at": "2023-09-14T05:53:50.739Z",
+        "updated_at": "2023-09-13T10:56:37.131Z",
+        "tool_id": "3f968eac-6419-436e-a3fd-eb374c30094f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "918c2ce6-bd56-4f22-a6b8-a2fb660b5274",
+        "start_date": "2023-09-13T09:13:47.990Z",
+        "end_date": "2023-09-14T06:58:51.138Z",
+        "created_at": "2023-09-14T00:33:33.036Z",
+        "updated_at": "2023-09-14T00:35:11.316Z",
+        "tool_id": "bcbb0a37-5c7d-4ecf-b171-7b21ce430211",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4f387b24-21e1-4da0-9b24-998e88294ed4",
+        "email": "Joanny.Ratke@gmail.com",
+        "firstName": "Manuela",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe7396af-c1a1-4e83-a006-2a087d5707a5",
+        "email": "Hillard46@yahoo.com",
+        "firstName": "Kip",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/385.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f6af4a33-2aeb-4c8e-a46b-01db1e922502",
+        "email": "Kaci79@gmail.com",
+        "firstName": "Jeramy",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31406234",
+        "tenantId": null
+      },
+      {
+        "reference": "324a31c1-f54c-4d9f-8eea-438ea1c95f25",
+        "email": "Sabina.Dare@yahoo.com",
+        "firstName": "Carmela",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5212396",
+        "tenantId": null
+      },
+      {
+        "reference": "0161a2b9-195d-4e2e-86b9-761d7bbb3706",
+        "email": "Ivy.Kuhn@gmail.com",
+        "firstName": "Amanda",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/972.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "fe7999f7-7582-4c55-ac8d-366c2d40bf0d",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 14527,
+        "availability_status": false,
+        "created_at": "2023-09-13T18:46:16.823Z",
+        "updated_at": "2023-09-13T10:54:24.745Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1b58ea8d-2500-4e56-b5da-3ca31be0e770",
+        "name": "Screwdriver",
+        "description": "Ideal for fastening screws",
+        "price": 19352,
+        "availability_status": true,
+        "created_at": "2023-09-13T21:11:13.500Z",
+        "updated_at": "2023-09-14T01:38:21.579Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2bb757f3-7543-403f-aade-49f8e68a6155",
+        "name": "Wrench",
+        "description": "Used for tightening and loosening nuts",
+        "price": 16318,
+        "availability_status": true,
+        "created_at": "2023-09-14T06:59:57.426Z",
+        "updated_at": "2023-09-13T19:13:25.387Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e842a2bd-5f43-4cc2-8bd8-ec8d880c47d5",
+        "name": "Drill",
+        "description": "Perfect for drilling holes",
+        "price": 21274,
+        "availability_status": false,
+        "created_at": "2023-09-14T06:08:19.287Z",
+        "updated_at": "2023-09-13T10:11:14.197Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "061ea47c-c0b5-4776-8358-78bfa078b800",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "price": 56179,
+        "availability_status": true,
+        "created_at": "2023-09-14T06:01:35.686Z",
+        "updated_at": "2023-09-14T03:02:35.906Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "55e17fcd-2112-4379-b14b-b2746d4d8d0b",
+        "start_date": "2023-09-13T20:17:49.130Z",
+        "end_date": "2023-09-14T01:05:11.211Z",
+        "status": "Pending",
+        "created_at": "2023-09-13T23:53:17.527Z",
+        "updated_at": "2023-09-14T06:27:06.634Z",
+        "tool_id": "1b58ea8d-2500-4e56-b5da-3ca31be0e770",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76345853-d334-48a2-a6c9-411704e6ef32",
+        "start_date": "2023-09-13T12:32:43.823Z",
+        "end_date": "2023-09-13T13:00:18.630Z",
+        "status": "Approved",
+        "created_at": "2023-09-13T10:52:42.477Z",
+        "updated_at": "2023-09-13T08:59:23.116Z",
+        "tool_id": "2bb757f3-7543-403f-aade-49f8e68a6155",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36e863d7-a944-4591-ab8a-5e1c3ef76426",
+        "start_date": "2023-09-13T10:29:47.229Z",
+        "end_date": "2023-09-13T11:57:19.493Z",
+        "status": "Rejected",
+        "created_at": "2023-09-13T09:33:35.275Z",
+        "updated_at": "2023-09-13T12:27:41.014Z",
+        "tool_id": "1b58ea8d-2500-4e56-b5da-3ca31be0e770",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfe8cdde-c8f2-4c9d-811d-be2e054c801f",
+        "start_date": "2023-09-14T02:07:33.064Z",
+        "end_date": "2023-09-13T09:09:52.735Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-13T09:40:48.374Z",
+        "updated_at": "2023-09-13T17:04:59.636Z",
+        "tool_id": "e842a2bd-5f43-4cc2-8bd8-ec8d880c47d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae0f41f4-b1f7-4dac-bb21-1baec73e3090",
+        "start_date": "2023-09-13T22:10:11.426Z",
+        "end_date": "2023-09-13T14:54:57.184Z",
+        "status": "Completed",
+        "created_at": "2023-09-14T05:00:12.779Z",
+        "updated_at": "2023-09-14T07:22:46.087Z",
+        "tool_id": "061ea47c-c0b5-4776-8358-78bfa078b800",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "57436a47-c2cf-40fa-a1ab-341e6d9e2bb1",
+        "start_date": "2023-09-13T11:39:08.729Z",
+        "end_date": "2023-09-14T05:33:01.133Z",
+        "created_at": "2023-09-13T21:11:43.861Z",
+        "updated_at": "2023-09-13T21:57:05.840Z",
+        "tool_id": "061ea47c-c0b5-4776-8358-78bfa078b800",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85b0e17b-5716-435e-afc1-bf893046af4b",
+        "start_date": "2023-09-14T08:06:17.976Z",
+        "end_date": "2023-09-13T13:18:11.239Z",
+        "created_at": "2023-09-13T20:38:58.508Z",
+        "updated_at": "2023-09-13T21:06:20.947Z",
+        "tool_id": "061ea47c-c0b5-4776-8358-78bfa078b800",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4c347aa-209f-4457-948d-48fe4768aa87",
+        "start_date": "2023-09-13T18:18:06.137Z",
+        "end_date": "2023-09-14T01:14:06.153Z",
+        "created_at": "2023-09-14T05:28:30.864Z",
+        "updated_at": "2023-09-13T16:59:48.103Z",
+        "tool_id": "1b58ea8d-2500-4e56-b5da-3ca31be0e770",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "417a3c84-53a1-4d6e-94ee-92e71156f371",
+        "start_date": "2023-09-13T13:07:33.636Z",
+        "end_date": "2023-09-13T14:00:50.443Z",
+        "created_at": "2023-09-13T09:20:09.813Z",
+        "updated_at": "2023-09-13T22:30:44.042Z",
+        "tool_id": "061ea47c-c0b5-4776-8358-78bfa078b800",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e00ecb29-d8e3-4e95-9797-8719d9d00f45",
+        "start_date": "2023-09-14T07:22:18.733Z",
+        "end_date": "2023-09-13T13:12:44.142Z",
+        "created_at": "2023-09-13T21:21:59.845Z",
+        "updated_at": "2023-09-14T05:48:52.408Z",
+        "tool_id": "2bb757f3-7543-403f-aade-49f8e68a6155",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "77f8480a-829b-40ec-b3ec-180c1cb55362",
+        "email": "Nia17@yahoo.com",
+        "firstName": "Sammy",
+        "lastName": "White-Haley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48683680",
+        "tenantId": null
+      },
+      {
+        "reference": "799084dc-a29c-490f-a041-d404f0a5ad09",
+        "email": "Jocelyn_Steuber@gmail.com",
+        "firstName": "Kyler",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/140.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "424e3bb0-f3f4-4387-82f2-594bfccf4b28",
+        "email": "Daryl19@hotmail.com",
+        "firstName": "Madge",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12478317",
+        "tenantId": null
+      },
+      {
+        "reference": "92a10c6b-f8ea-4d0b-90af-d00619f97e0c",
+        "email": "Juana_West@gmail.com",
+        "firstName": "Mohammed",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61242483",
+        "tenantId": null
+      },
+      {
+        "reference": "50eb95e0-104f-462c-bfe0-fcfbd0ef72c2",
+        "email": "Dolores.Hoppe37@hotmail.com",
+        "firstName": "Rickie",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/440.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "2ebe1e10-c9bc-48c3-ba52-e06107d4ba6c",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 51427,
+        "availability_status": true,
+        "created_at": "2023-09-13T16:42:26.487Z",
+        "updated_at": "2023-09-14T08:04:54.963Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "26c4b091-be55-4c1a-9c03-4c8065f06924",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening or loosening screws",
+        "price": 87499,
+        "availability_status": true,
+        "created_at": "2023-09-14T04:15:53.687Z",
+        "updated_at": "2023-09-13T15:33:24.826Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d688e8e1-adfa-4228-ba9e-44beb2c26cc2",
+        "name": "Wrench",
+        "description": "Ideal for plumbing repairs",
+        "price": 74985,
+        "availability_status": true,
+        "created_at": "2023-09-13T19:22:29.175Z",
+        "updated_at": "2023-09-13T18:41:38.310Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9140b1cf-fc57-4a27-a58c-c5aa906ffe81",
+        "name": "Drill",
+        "description": "Efficient for drilling holes",
+        "price": 74324,
+        "availability_status": false,
+        "created_at": "2023-09-13T13:36:08.682Z",
+        "updated_at": "2023-09-14T07:07:31.396Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6af926a4-1445-447a-a0a2-1f3340d7f63d",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "price": 58866,
+        "availability_status": true,
+        "created_at": "2023-09-14T01:06:12.024Z",
+        "updated_at": "2023-09-13T14:45:42.223Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "cf73a42f-a7da-487f-aa76-42b9778dbbbb",
+        "start_date": "2023-09-14T02:33:38.836Z",
+        "end_date": "2023-09-13T15:42:40.069Z",
+        "status": "Pending",
+        "created_at": "2023-09-13T23:50:00.208Z",
+        "updated_at": "2023-09-13T15:55:46.082Z",
+        "tool_id": "6af926a4-1445-447a-a0a2-1f3340d7f63d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a3aa8ba-8432-4ae9-a708-edea93911ff3",
+        "start_date": "2023-09-14T07:20:13.284Z",
+        "end_date": "2023-09-14T06:19:49.238Z",
+        "status": "Approved",
+        "created_at": "2023-09-13T12:06:08.347Z",
+        "updated_at": "2023-09-13T12:58:26.346Z",
+        "tool_id": "9140b1cf-fc57-4a27-a58c-c5aa906ffe81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66b68110-f7b2-47ce-ad3a-8251e6685190",
+        "start_date": "2023-09-14T06:04:52.457Z",
+        "end_date": "2023-09-14T03:16:47.455Z",
+        "status": "Rejected",
+        "created_at": "2023-09-14T03:24:47.226Z",
+        "updated_at": "2023-09-13T12:55:12.251Z",
+        "tool_id": "6af926a4-1445-447a-a0a2-1f3340d7f63d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95fdd32b-13b6-4f48-9f2f-bddc31668fd1",
+        "start_date": "2023-09-14T01:15:37.930Z",
+        "end_date": "2023-09-13T10:17:09.159Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-13T22:24:34.795Z",
+        "updated_at": "2023-09-14T00:44:38.880Z",
+        "tool_id": "6af926a4-1445-447a-a0a2-1f3340d7f63d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fc787c2-32e6-4c03-8d1c-774ae19f58ba",
+        "start_date": "2023-09-13T10:03:53.302Z",
+        "end_date": "2023-09-14T06:18:43.599Z",
+        "status": "Completed",
+        "created_at": "2023-09-13T11:13:30.840Z",
+        "updated_at": "2023-09-13T16:07:51.973Z",
+        "tool_id": "9140b1cf-fc57-4a27-a58c-c5aa906ffe81",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "84153b1b-9a69-4df9-98e3-d5c68529cb1c",
+        "start_date": "2023-09-14T06:46:16.289Z",
+        "end_date": "2023-09-14T05:23:14.838Z",
+        "created_at": "2023-09-14T07:26:13.087Z",
+        "updated_at": "2023-09-14T00:21:40.952Z",
+        "tool_id": "6af926a4-1445-447a-a0a2-1f3340d7f63d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f0518fb-1cd5-4b2e-ad76-24b0c0d2b93b",
+        "start_date": "2023-09-14T08:08:22.764Z",
+        "end_date": "2023-09-13T11:01:29.130Z",
+        "created_at": "2023-09-14T08:21:59.359Z",
+        "updated_at": "2023-09-13T18:08:05.364Z",
+        "tool_id": "6af926a4-1445-447a-a0a2-1f3340d7f63d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ceedcd4-7494-4a64-bb03-fa391e61b459",
+        "start_date": "2023-09-13T22:51:57.415Z",
+        "end_date": "2023-09-14T07:46:50.941Z",
+        "created_at": "2023-09-13T13:05:26.276Z",
+        "updated_at": "2023-09-14T05:30:47.029Z",
+        "tool_id": "26c4b091-be55-4c1a-9c03-4c8065f06924",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4d11c12-7a5a-4ec0-81a0-9a72d97e7725",
+        "start_date": "2023-09-13T19:38:44.776Z",
+        "end_date": "2023-09-14T03:38:51.143Z",
+        "created_at": "2023-09-13T16:22:46.126Z",
+        "updated_at": "2023-09-13T12:41:28.493Z",
+        "tool_id": "6af926a4-1445-447a-a0a2-1f3340d7f63d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c480ed68-e7b9-454f-9942-c54eada66720",
+        "start_date": "2023-09-14T03:42:06.156Z",
+        "end_date": "2023-09-14T02:45:47.538Z",
+        "created_at": "2023-09-13T14:14:56.125Z",
+        "updated_at": "2023-09-14T02:52:12.143Z",
+        "tool_id": "26c4b091-be55-4c1a-9c03-4c8065f06924",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1c7f1c59-51d1-4f0b-8c3d-d1432e1b11e6",
+        "email": "Armani85@hotmail.com",
+        "firstName": "Vidal",
+        "lastName": "Quigley-Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb96a080-5e34-4e21-8d82-08ab44023ec9",
+        "email": "Layla.Hilpert71@hotmail.com",
+        "firstName": "Columbus",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/335.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f97bc53f-b0cf-4a28-bf64-ca3de8979aa4",
+        "email": "Floy_Gulgowski5@gmail.com",
+        "firstName": "Mara",
+        "lastName": "Johnson-Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70121073",
+        "tenantId": null
+      },
+      {
+        "reference": "4ba3d851-b7ed-4bc1-9d82-5c686a890abc",
+        "email": "Bella.Bednar@hotmail.com",
+        "firstName": "Darwin",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf351e13-2e33-43f0-8d73-9d8fdf26948b",
+        "email": "Alejandra0@gmail.com",
+        "firstName": "Harvey",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "5e57feeb-84c1-498e-be50-cac29f7d0e66",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 53673,
+        "availability_status": false,
+        "created_at": "2023-09-13T16:59:24.474Z",
+        "updated_at": "2023-09-13T22:48:07.131Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3a26e3b7-2e8f-48e0-91d9-e8be08dd3c2d",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening screws and bolts",
+        "price": 43096,
+        "availability_status": false,
+        "created_at": "2023-09-13T16:38:04.954Z",
+        "updated_at": "2023-09-13T18:26:12.161Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7aec96fc-8875-472e-a9e5-96c1c75c4bb2",
+        "name": "Wrench",
+        "description": "Used for gripping and turning objects",
+        "price": 67890,
+        "availability_status": true,
+        "created_at": "2023-09-14T04:51:27.124Z",
+        "updated_at": "2023-09-13T20:54:25.384Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b120b165-db31-493b-a9c6-78e9b859b5b0",
+        "name": "Drill",
+        "description": "For drilling holes in different materials",
+        "price": 4302,
+        "availability_status": false,
+        "created_at": "2023-09-13T20:00:23.375Z",
+        "updated_at": "2023-09-14T08:57:00.792Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7e70d14f-687d-4366-bf1e-80db7964109a",
+        "name": "Saw",
+        "description": "Perfect for cutting through different materials",
+        "price": 53908,
+        "availability_status": false,
+        "created_at": "2023-09-14T08:13:27.295Z",
+        "updated_at": "2023-09-14T01:41:42.060Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "d4f076fb-e35a-42d2-a2df-ab3469d45e49",
+        "start_date": "2023-09-13T12:40:01.572Z",
+        "end_date": "2023-09-13T09:26:00.549Z",
+        "status": "Pending",
+        "created_at": "2023-09-14T08:31:10.366Z",
+        "updated_at": "2023-09-13T15:59:47.026Z",
+        "tool_id": "3a26e3b7-2e8f-48e0-91d9-e8be08dd3c2d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9afeb949-116a-467c-9eeb-0168a61790a1",
+        "start_date": "2023-09-13T21:17:17.422Z",
+        "end_date": "2023-09-13T18:14:08.372Z",
+        "status": "Approved",
+        "created_at": "2023-09-13T22:26:57.211Z",
+        "updated_at": "2023-09-13T10:38:49.232Z",
+        "tool_id": "3a26e3b7-2e8f-48e0-91d9-e8be08dd3c2d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b091cddb-06e5-4988-8816-b5ccbfa984f6",
+        "start_date": "2023-09-13T18:28:15.963Z",
+        "end_date": "2023-09-13T21:50:59.270Z",
+        "status": "Rejected",
+        "created_at": "2023-09-13T22:29:51.556Z",
+        "updated_at": "2023-09-13T13:38:54.734Z",
+        "tool_id": "7e70d14f-687d-4366-bf1e-80db7964109a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc321443-78f2-4916-887a-cac18c0626dc",
+        "start_date": "2023-09-13T12:27:35.192Z",
+        "end_date": "2023-09-14T01:01:47.277Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-13T13:59:51.441Z",
+        "updated_at": "2023-09-13T11:46:25.663Z",
+        "tool_id": "3a26e3b7-2e8f-48e0-91d9-e8be08dd3c2d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2b2eb55-7f69-4d17-bf53-961109638c8f",
+        "start_date": "2023-09-13T10:28:36.770Z",
+        "end_date": "2023-09-14T06:08:01.239Z",
+        "status": "Completed",
+        "created_at": "2023-09-13T23:59:51.383Z",
+        "updated_at": "2023-09-14T06:30:47.469Z",
+        "tool_id": "7e70d14f-687d-4366-bf1e-80db7964109a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "2e31f3ef-4508-444f-9bf5-3a8c1d5354dd",
+        "start_date": "2023-09-14T08:16:04.359Z",
+        "end_date": "2023-09-14T03:23:32.667Z",
+        "created_at": "2023-09-14T07:51:48.273Z",
+        "updated_at": "2023-09-13T13:44:28.765Z",
+        "tool_id": "5e57feeb-84c1-498e-be50-cac29f7d0e66",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bed3b99b-81a0-4ad1-99b6-7566f00d96d0",
+        "start_date": "2023-09-13T19:36:39.181Z",
+        "end_date": "2023-09-14T01:39:17.970Z",
+        "created_at": "2023-09-14T07:13:44.242Z",
+        "updated_at": "2023-09-13T09:05:51.454Z",
+        "tool_id": "7e70d14f-687d-4366-bf1e-80db7964109a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da5f7352-fcf6-4a5f-9ca6-b39116e78250",
+        "start_date": "2023-09-14T05:23:15.889Z",
+        "end_date": "2023-09-13T10:10:23.612Z",
+        "created_at": "2023-09-13T13:32:52.149Z",
+        "updated_at": "2023-09-13T12:50:32.618Z",
+        "tool_id": "7e70d14f-687d-4366-bf1e-80db7964109a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f9ff2d8-b9f4-4d97-a0c2-7cfbfac79b57",
+        "start_date": "2023-09-13T18:03:18.263Z",
+        "end_date": "2023-09-14T04:37:30.522Z",
+        "created_at": "2023-09-14T02:25:49.300Z",
+        "updated_at": "2023-09-13T09:05:45.124Z",
+        "tool_id": "7aec96fc-8875-472e-a9e5-96c1c75c4bb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20e55007-bd21-45b8-903f-1e4e4e461322",
+        "start_date": "2023-09-13T18:07:00.401Z",
+        "end_date": "2023-09-13T22:26:35.702Z",
+        "created_at": "2023-09-14T00:12:21.215Z",
+        "updated_at": "2023-09-14T05:59:24.170Z",
+        "tool_id": "7aec96fc-8875-472e-a9e5-96c1c75c4bb2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "21ce5ea6-9b98-4a16-931c-cf9b3c528f22",
+        "email": "Octavia55@gmail.com",
+        "firstName": "Andres",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1161.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "49886317-84c1-420d-832d-453dd29e4a50",
+        "email": "Alyson95@hotmail.com",
+        "firstName": "Gina",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82177231",
+        "tenantId": null
+      },
+      {
+        "reference": "dbdda8d9-8339-4ae5-8dea-9cde5f7444e4",
+        "email": "Darby.Schultz14@yahoo.com",
+        "firstName": "Dessie",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/925.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dee3dc4d-40f8-473f-be69-6bdbf1d026e4",
+        "email": "Sadie52@hotmail.com",
+        "firstName": "Christine",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61977855",
+        "tenantId": null
+      },
+      {
+        "reference": "73a442a0-e577-4afc-b88a-8aa9390926a2",
+        "email": "Lila_Tillman@hotmail.com",
+        "firstName": "Tessie",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/127.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "0b222c6b-b857-453a-8024-4bbe7d8062fd",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price": 93672,
+        "availability_status": true,
+        "created_at": "2023-09-14T01:31:28.894Z",
+        "updated_at": "2023-09-13T13:07:27.711Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e3953b8f-87ec-4cc8-b1de-c1a30ecd2ad8",
+        "name": "Screwdriver",
+        "description": "Ideal for fastening screws",
+        "price": 44946,
+        "availability_status": true,
+        "created_at": "2023-09-14T03:14:07.071Z",
+        "updated_at": "2023-09-13T10:35:55.253Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "67e23c3d-b667-4501-9eaf-b71af56efd6f",
+        "name": "Drill",
+        "description": "Used for drilling holes",
+        "price": 5619,
+        "availability_status": false,
+        "created_at": "2023-09-14T01:14:24.055Z",
+        "updated_at": "2023-09-13T13:49:54.728Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3d567eff-2940-466a-98ad-40161c775b4f",
+        "name": "Wrench",
+        "description": "For tightening or loosening nuts and bolts",
+        "price": 8040,
+        "availability_status": true,
+        "created_at": "2023-09-14T03:44:20.440Z",
+        "updated_at": "2023-09-13T17:10:51.648Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b276e853-135c-40cb-bcf0-f9a550e09de0",
+        "name": "Pliers",
+        "description": "Used for gripping and bending wires",
+        "price": 12472,
+        "availability_status": false,
+        "created_at": "2023-09-13T09:10:05.935Z",
+        "updated_at": "2023-09-14T05:08:20.737Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental_request": [
+      {
+        "id": "beb8a270-6a04-4291-a1b7-48c898223739",
+        "start_date": "2023-09-13T22:22:58.184Z",
+        "end_date": "2023-09-14T04:27:43.587Z",
+        "status": "Pending",
+        "created_at": "2023-09-13T15:07:45.470Z",
+        "updated_at": "2023-09-13T19:13:27.024Z",
+        "tool_id": "e3953b8f-87ec-4cc8-b1de-c1a30ecd2ad8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "defe11ce-93e0-47f6-a84a-b9fad3e4f826",
+        "start_date": "2023-09-14T00:11:45.020Z",
+        "end_date": "2023-09-13T21:51:59.037Z",
+        "status": "Approved",
+        "created_at": "2023-09-14T04:17:08.680Z",
+        "updated_at": "2023-09-14T05:09:50.185Z",
+        "tool_id": "3d567eff-2940-466a-98ad-40161c775b4f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f04e5a0c-6336-4805-a180-02eedf7c46d0",
+        "start_date": "2023-09-13T21:48:31.302Z",
+        "end_date": "2023-09-13T22:33:34.293Z",
+        "status": "Rejected",
+        "created_at": "2023-09-14T05:25:10.174Z",
+        "updated_at": "2023-09-13T13:28:20.146Z",
+        "tool_id": "e3953b8f-87ec-4cc8-b1de-c1a30ecd2ad8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e43cd6b-46a7-41a8-8231-8705378dce25",
+        "start_date": "2023-09-14T08:34:11.860Z",
+        "end_date": "2023-09-14T00:00:17.986Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T03:02:02.941Z",
+        "updated_at": "2023-09-13T17:59:31.673Z",
+        "tool_id": "b276e853-135c-40cb-bcf0-f9a550e09de0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de66db36-07fe-4794-adbc-0c4a24e30ce8",
+        "start_date": "2023-09-13T12:30:51.139Z",
+        "end_date": "2023-09-13T12:36:08.140Z",
+        "status": "Completed",
+        "created_at": "2023-09-14T02:49:08.851Z",
+        "updated_at": "2023-09-13T21:51:02.881Z",
+        "tool_id": "3d567eff-2940-466a-98ad-40161c775b4f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental_history": [
+      {
+        "id": "a9dc385e-24e3-40aa-9a23-553c61e94568",
+        "start_date": "2023-09-13T23:06:06.256Z",
+        "end_date": "2023-09-13T14:35:00.010Z",
+        "created_at": "2023-09-13T23:28:43.636Z",
+        "updated_at": "2023-09-14T07:05:11.545Z",
+        "tool_id": "67e23c3d-b667-4501-9eaf-b71af56efd6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e30b5674-aeb8-4af0-8b9d-1ece57ebdb29",
+        "start_date": "2023-09-14T06:57:09.064Z",
+        "end_date": "2023-09-13T20:26:40.102Z",
+        "created_at": "2023-09-14T01:42:29.234Z",
+        "updated_at": "2023-09-13T23:52:29.601Z",
+        "tool_id": "0b222c6b-b857-453a-8024-4bbe7d8062fd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "703ddda7-32c2-4a08-a2da-4d9ad75741de",
+        "start_date": "2023-09-13T22:00:56.131Z",
+        "end_date": "2023-09-13T14:44:09.949Z",
+        "created_at": "2023-09-13T12:23:30.187Z",
+        "updated_at": "2023-09-14T08:19:39.253Z",
+        "tool_id": "3d567eff-2940-466a-98ad-40161c775b4f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3671751-1b63-4c98-836b-4ad742e99685",
+        "start_date": "2023-09-14T01:27:17.871Z",
+        "end_date": "2023-09-13T15:58:24.568Z",
+        "created_at": "2023-09-14T04:00:48.062Z",
+        "updated_at": "2023-09-13T17:06:42.187Z",
+        "tool_id": "3d567eff-2940-466a-98ad-40161c775b4f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba64bce9-c2fe-4498-ba06-0d759a111817",
+        "start_date": "2023-09-14T03:42:48.517Z",
+        "end_date": "2023-09-13T11:46:01.024Z",
+        "created_at": "2023-09-14T00:23:40.535Z",
+        "updated_at": "2023-09-13T19:52:44.482Z",
+        "tool_id": "3d567eff-2940-466a-98ad-40161c775b4f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4cc0368f-7103-4550-ac34-d007cd12c1be",
+        "email": "Earnestine_Gutmann-Cremin@yahoo.com",
+        "firstName": "Tillman",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14841124",
+        "tenantId": null
+      },
+      {
+        "reference": "02f2e73c-bfa5-450c-89d1-c6921dacdf57",
+        "email": "Orval_Gislason@hotmail.com",
+        "firstName": "Mervin",
+        "lastName": "Willms-Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70640795",
+        "tenantId": null
+      },
+      {
+        "reference": "a8cf9f69-36a4-4cef-826e-a555344f3c24",
+        "email": "Virgil_Gutmann77@gmail.com",
+        "firstName": "Zelda",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc8d7076-bf4c-479d-995a-282cbf4c9930",
+        "email": "Newton61@hotmail.com",
+        "firstName": "Holly",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/56.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eec73c28-2b74-4709-8f1c-20c9a82ce6f9",
+        "email": "Coralie_Conn@yahoo.com",
+        "firstName": "Mustafa",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86095856",
+        "tenantId": null
+      }
+    ]
+  }
+]
